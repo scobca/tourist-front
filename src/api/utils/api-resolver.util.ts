@@ -8,7 +8,7 @@ export default class ApiResolverUtil {
         this.endpoint = endpoint
     }
 
-    async request(url: string, method: string, data: any) {
+    async request(url: string, method: string, data?: any) {
         url = `${apiConf.endpoint}/${this.endpoint}/${url}`
         return await (new Promise((resolve, reject) => axios({
             url,
