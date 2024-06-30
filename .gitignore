@@ -1,3 +1,6 @@
+#conf
+/src/api/conf/api.conf.ts
+
 # Logs
 logs
 *.log
